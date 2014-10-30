@@ -1,7 +1,30 @@
 # A simple database using get()
 
-# Insert database (people) from Listing 4-1 here.
+# A dictionary with person names as keys. Each person is represented as
+# another dictionary with the keys 'phone' and 'addr' referring to their phone
+# number and address, respectively.
 
+people = {
+
+    'Alice': {
+        'phone': '2341',
+        'addr': 'Foo drive 23'
+    },
+
+    'Beth': {
+        'phone': '9102',
+        'addr': 'Bar street 42'
+    },
+
+    'Cecil': {
+        'phone': '3158',
+        'addr': 'Baz avenue 90'
+    }
+
+}
+
+# Descriptive labels for the phone number and address. These will be used
+# when printing the output.
 labels = {
     'phone': 'phone number',
     'addr': 'address'
